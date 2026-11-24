@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	billing "github.com/nhkhai-vn/go-billing"
+	billing "github.com/sgl-k/go-billing"
 )
 
 const defaultAPIURL = "https://slack.com/api/chat.postMessage"

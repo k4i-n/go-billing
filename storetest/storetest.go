@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	billing "github.com/nhkhai-vn/go-billing"
+	billing "github.com/sgl-k/go-billing"
 )
 
 // Run runs every check against a store from newStore.

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	billing "github.com/nhkhai-vn/go-billing"
+	billing "github.com/sgl-k/go-billing"
 	gostripe "github.com/stripe/stripe-go/v87"
 )
 

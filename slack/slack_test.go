@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	billing "github.com/nhkhai-vn/go-billing"
+	billing "github.com/sgl-k/go-billing"
 )
 
 type captured struct {

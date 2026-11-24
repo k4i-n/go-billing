@@ -1,4 +1,4 @@
-module github.com/nhkhai-vn/go-billing/firestore
+module github.com/sgl-k/go-billing/firestore
 
 go 1.26.0
 
@@ -6,7 +6,7 @@ toolchain go1.27.3
 
 require (
 	cloud.google.com/go/firestore v1.29.2
-	github.com/nhkhai-vn/go-billing v0.1.0
+	github.com/sgl-k/go-billing v0.2.0
 	google.golang.org/grpc v1.84.0
 )
 
@@ -44,4 +44,4 @@ require (
 	google.golang.org/protobuf v1.36.12 // indirect
 )
 
-replace github.com/nhkhai-vn/go-billing => ../
+replace github.com/sgl-k/go-billing => ../

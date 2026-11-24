@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	billing "github.com/nhkhai-vn/go-billing"
+	billing "github.com/sgl-k/go-billing"
 )
 
 var ctx = context.Background()

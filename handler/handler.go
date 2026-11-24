@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"time"
 
-	billing "github.com/nhkhai-vn/go-billing"
+	billing "github.com/sgl-k/go-billing"
 )
 
 // maxWebhookBodySize is generous because provider events can exceed 64 KiB; a larger body is rejected, not truncated,

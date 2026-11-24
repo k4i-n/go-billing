@@ -1,4 +1,4 @@
-module github.com/nhkhai-vn/go-billing
+module github.com/sgl-k/go-billing
 
 go 1.26.0
 
