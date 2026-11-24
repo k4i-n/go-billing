@@ -7,9 +7,9 @@ It is a library, not a service. Your app imports it, mounts the HTTP handlers it
 ## Install
 
 ```sh
-go get github.com/nhkhai-vn/go-billing
-go get github.com/nhkhai-vn/go-billing/stripe
-go get github.com/nhkhai-vn/go-billing/postgres   # or /firestore
+go get github.com/sgl-k/go-billing
+go get github.com/sgl-k/go-billing/stripe
+go get github.com/sgl-k/go-billing/postgres   # or /firestore
 ```
 
 The core module has no dependencies. Each provider and store is its own module, so a PostgreSQL app never downloads the Firestore client.
@@ -73,10 +73,10 @@ _, err = svc.CancelSubscription(ctx, email, reason, false) // at period end
 
 | Module | What |
 |---|---|
-| `github.com/nhkhai-vn/go-billing` | `billing`: the `Service`, domain types and the `Provider`, `Store` and `Notifier` interfaces. `handler`: optional `net/http` handlers. `memory`: an in-process store for tests. `storetest`: the conformance suite every store passes. `slack`: a `Notifier` posting with a bot token |
-| `github.com/nhkhai-vn/go-billing/stripe` | The Stripe provider (stripe-go v87): checkout, portal, meters, promotion codes, signed webhooks with several secrets accepted during a rotation |
-| `github.com/nhkhai-vn/go-billing/postgres` | A store on PostgreSQL via pgx, with embedded migrations (`Migrate`) |
-| `github.com/nhkhai-vn/go-billing/firestore` | A store on Cloud Firestore in native mode, using flat `billing_*` collections |
+| `github.com/sgl-k/go-billing` | `billing`: the `Service`, domain types and the `Provider`, `Store` and `Notifier` interfaces. `handler`: optional `net/http` handlers. `memory`: an in-process store for tests. `storetest`: the conformance suite every store passes. `slack`: a `Notifier` posting with a bot token |
+| `github.com/sgl-k/go-billing/stripe` | The Stripe provider (stripe-go v87): checkout, portal, meters, promotion codes, signed webhooks with several secrets accepted during a rotation |
+| `github.com/sgl-k/go-billing/postgres` | A store on PostgreSQL via pgx, with embedded migrations (`Migrate`) |
+| `github.com/sgl-k/go-billing/firestore` | A store on Cloud Firestore in native mode, using flat `billing_*` collections |
 
 To add a store, implement the four repositories in `billing.Store` and run `storetest.Run` against it. To add a provider, implement `billing.Provider` and return `billing.ErrUnsupported` for features it lacks.
 
