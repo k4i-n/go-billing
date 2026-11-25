@@ -7,7 +7,7 @@ toolchain go1.27.4
 require (
 	cloud.google.com/go/firestore v1.29.2
 	github.com/k4i-n/go-billing v0.2.0
-	google.golang.org/grpc v1.84.0
+	google.golang.org/grpc v1.85.0
 )
 
 require (
