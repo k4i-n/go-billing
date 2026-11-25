@@ -8,8 +8,8 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	billing "github.com/nhkhai-vn/go-billing"
-	"github.com/nhkhai-vn/go-billing/storetest"
+	billing "github.com/k4i-n/go-billing"
+	"github.com/k4i-n/go-billing/storetest"
 )
 
 // migratedPool connects to BILLING_POSTGRES_URL and migrates it twice, so every test also checks that Migrate is

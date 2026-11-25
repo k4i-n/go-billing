@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	billing "github.com/nhkhai-vn/go-billing"
+	billing "github.com/k4i-n/go-billing"
 )
 
 // NewStore returns an empty in-memory store.

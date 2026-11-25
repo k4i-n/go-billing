@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	billing "github.com/nhkhai-vn/go-billing"
+	billing "github.com/k4i-n/go-billing"
 )
 
 func planEnv(t *testing.T, wrap ...func(*billing.Store)) *env {

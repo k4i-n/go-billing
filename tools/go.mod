@@ -1,4 +1,4 @@
-module github.com/nhkhai-vn/go-billing/tools
+module github.com/k4i-n/go-billing/tools
 
 go 1.27.3
 
