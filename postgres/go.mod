@@ -1,12 +1,12 @@
-module github.com/nhkhai-vn/go-billing/postgres
+module github.com/k4i-n/go-billing/postgres
 
 go 1.26.0
 
-toolchain go1.27.3
+toolchain go1.27.4
 
 require (
 	github.com/jackc/pgx/v5 v5.12.0
-	github.com/nhkhai-vn/go-billing v0.1.0
+	github.com/k4i-n/go-billing v0.2.0
 )
 
 require (
@@ -17,4 +17,4 @@ require (
 	golang.org/x/text v0.41.0 // indirect
 )
 
-replace github.com/nhkhai-vn/go-billing => ../
+replace github.com/k4i-n/go-billing => ../

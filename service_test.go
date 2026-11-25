@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"testing"
 
-	billing "github.com/nhkhai-vn/go-billing"
-	"github.com/nhkhai-vn/go-billing/memory"
+	billing "github.com/k4i-n/go-billing"
+	"github.com/k4i-n/go-billing/memory"
 )
 
 const app = "myapp"

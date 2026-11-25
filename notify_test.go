@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	billing "github.com/nhkhai-vn/go-billing"
+	billing "github.com/k4i-n/go-billing"
 )
 
 func (e *env) only(t *testing.T) billing.Notification {

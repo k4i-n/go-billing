@@ -11,8 +11,8 @@ import (
 
 	gcfs "cloud.google.com/go/firestore"
 
-	billing "github.com/nhkhai-vn/go-billing"
-	"github.com/nhkhai-vn/go-billing/storetest"
+	billing "github.com/k4i-n/go-billing"
+	"github.com/k4i-n/go-billing/storetest"
 )
 
 func newClient(t *testing.T) *gcfs.Client {

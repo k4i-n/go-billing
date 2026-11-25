@@ -3,8 +3,8 @@ package memory
 import (
 	"testing"
 
-	billing "github.com/nhkhai-vn/go-billing"
-	"github.com/nhkhai-vn/go-billing/storetest"
+	billing "github.com/k4i-n/go-billing"
+	"github.com/k4i-n/go-billing/storetest"
 )
 
 func TestStore(t *testing.T) {

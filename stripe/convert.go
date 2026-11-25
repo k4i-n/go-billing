@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	billing "github.com/nhkhai-vn/go-billing"
+	billing "github.com/k4i-n/go-billing"
 	gostripe "github.com/stripe/stripe-go/v87"
 )
 
